@@ -1,0 +1,5 @@
+name: gyuudon
+main: ygr.gyuudon.Main
+version: 0.0.1
+author: yug0&k6!
+api: ["1.0.0"]
