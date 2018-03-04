@@ -17,8 +17,6 @@ public class Main extends PluginBase implements Listener{
 	        this.getServer().getPluginManager().registerEvents(this, this);//必須
 	 }
 
-
-
-
-
+	 //TestComit してみたよ
+	 
 }
