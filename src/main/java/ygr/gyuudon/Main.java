@@ -1,3 +1,4 @@
+
 package ygr.gyuudon;
 
 import cn.nukkit.Player;
@@ -17,7 +18,6 @@ public class Main extends PluginBase implements Listener{
 	        this.getServer().getPluginManager().registerEvents(this, this);//必須
 	 }
 
-	 //TestComit してみたよ2333
+	 //TestComit してみたよ3
 	 
 }
-
