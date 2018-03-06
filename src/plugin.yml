@@ -1,5 +1,5 @@
 name: gyuudon
-main: java.ygr.gyuudon.Main
+main: main.java.ygr.gyuudon.Main
 version: 1.0.0
 author: ygr
 api: ["1.0.0"]

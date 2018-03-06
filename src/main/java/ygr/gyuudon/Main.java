@@ -10,6 +10,7 @@ import ygr.gyuudon.iw.tests.TestCase01;
 
 public class Main extends PluginBase implements Listener{
 	
+	 @Override
 	public void onEnable(){
 		getLogger().info("起動しました。");
         this.getServer().getPluginManager().registerEvents(this, this);
