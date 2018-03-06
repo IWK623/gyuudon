@@ -1,4 +1,4 @@
-package iw.tests;
+package ygr.gyuudon.iw.tests;
 
 /**
  * @file TestCase01

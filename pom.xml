@@ -1,21 +1,27 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
-  <groupId>ygr</groupId>
+  <groupId>ygr.gyuudon</groupId>
   <artifactId>gyuudon</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>gyuudon Maven Plugin</name>
+  <repositories>
+  	<repository>
+  		<id>mengcraft</id>
+  		<url>http://ci.mengcraft.com:8080/plugin/repository/everything/</url>
+  	</repository>
+  </repositories>
 
-  <!-- FIXME change it to the project's website -->
-<url>http://haniokasai.com</url>
+
+  <name>gyuudon</name>
+
+  <url>http://nukkit.memo.wiki/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  
+
   <dependencies>
     <dependency>
 		<groupId>cn.nukkit</groupId>
@@ -24,7 +30,7 @@
 		<scope>provided</scope>
     </dependency>
   </dependencies>
-  
+
   <build>
 	<finalName>${project.artifactId}-${project.version}</finalName>
 	<defaultGoal>clean install</defaultGoal>

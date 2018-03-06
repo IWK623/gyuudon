@@ -1,4 +1,3 @@
-
 package ygr.gyuudon;
 
 import cn.nukkit.command.Command;
@@ -7,14 +6,14 @@ import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.Listener;
 import cn.nukkit.event.player.PlayerChatEvent;
 import cn.nukkit.plugin.PluginBase;
-import iw.tests.TestCase01;
+import ygr.gyuudon.iw.tests.TestCase01;
 
 public class Main extends PluginBase implements Listener{
-
-	 public void onEnable() {
-	        getLogger().info("牛丼 is Enable");
-	        this.getServer().getPluginManager().registerEvents(this, this);
-	 }
+	
+	public void onEnable(){
+		getLogger().info("起動しました。");
+        this.getServer().getPluginManager().registerEvents(this, this);
+	}
 	 
 	 @EventHandler
 	 public void onChat(PlayerChatEvent ev) {

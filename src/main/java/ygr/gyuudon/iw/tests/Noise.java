@@ -1,4 +1,4 @@
-package iw.tests;
+package ygr.gyuudon.iw.tests;
 
 public final class Noise {
 	
